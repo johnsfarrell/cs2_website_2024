@@ -569,6 +569,10 @@ ul#staff-list li:hover {
   flex-direction: column;
 }
 
+.back a {
+  color: rgb(255, 255, 255);
+}
+
 .back {
   box-shadow: 0 0 1px rgb(0, 0, 0);
   border: 8px solid rgb(255, 255, 255);
