@@ -545,7 +545,7 @@ ul#staff-list li:hover {
 }
 
 .inner:hover {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) translateX(-2em);
 }
 
 .front,
@@ -734,5 +734,9 @@ hr {
 
   img#brown-logo {
     display: none;
+  }
+
+  ul#staff-list li {
+    margin-right: 2em;
   }
 }
