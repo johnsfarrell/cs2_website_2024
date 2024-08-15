@@ -6,11 +6,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   background-image: url("img/parallax/bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 body.staff {
@@ -425,16 +423,6 @@ iframe.calendar:hover {
   padding-top: 10em;
 }
 
-#layer1 {
-  background-image: url("img/parallax/layer1.png");
-  z-index: -2;
-  background-size: 100% 100%;
-}
-#layer2 {
-  background-image: url("img/parallax/layer2.png");
-  z-index: -3;
-  background-size: 100% 100%;
-}
 #layer3 {
   background-image: url("img/parallax/layer3.png");
   z-index: -4;
