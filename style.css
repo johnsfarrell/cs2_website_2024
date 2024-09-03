@@ -11,12 +11,15 @@ body {
   background-attachment: fixed;
 }
 
+body.assignments {
+  background: radial-gradient(circle, rgb(47, 116, 28) 0%, rgb(1, 59, 22) 100%);
+}
+
 body.staff {
   height: auto;
   min-height: 100vh;
   overflow-x: hidden;
   background: radial-gradient(circle, rgb(47, 116, 28) 0%, rgb(1, 59, 22) 100%);
-  box-shadow: inset 0 0 5em rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -166,7 +169,6 @@ img#brown-logo {
 .ticket-widget-wrapper {
   display: flex;
   background-color: #fff;
-  box-shadow: 0 0 2em rgba(0, 0, 0, 0.1);
   transition: 0.25s ease;
   color: #3e3e3e;
   opacity: 0.95;
@@ -176,7 +178,7 @@ img#brown-logo {
 }
 
 .ticket-widget-wrapper.locked {
-  filter: brightness(0.5) blur(2px);
+  cursor: not-allowed;
 }
 
 .ticket-widget-wrapper img.lock {
@@ -276,7 +278,7 @@ img#brown-logo {
 
 .ticket-widget-footer span {
   margin: 0;
-  font-size: 10px;
+  font-size: 8px;
   font-family: sans-serif;
 }
 
@@ -349,7 +351,7 @@ table {
   color: #333;
   font-family: sans-serif;
   text-transform: uppercase;
-  background-color: #ffffffc1;
+  background-color: #fff;
 }
 
 thead {
@@ -391,23 +393,13 @@ table tr:hover {
 
 /* hours iframe */
 iframe.calendar {
-  transition: 0.25s ease;
-  width: 50em;
+  width: 52em;
   aspect-ratio: 1.6;
-  box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.25), 0 0 2em rgba(0, 0, 0, 0.1);
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
-  border-left: 2px solid rgba(0, 0, 0, 0.2);
-  border-right: 2px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border: none;
   padding: 1em;
+  border-left: 4px solid #00000020;
   background-color: #fff;
   border-radius: 4px;
-}
-
-iframe.calendar:hover {
-  box-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
-  box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.25), 0 0 2em rgba(0, 0, 0, 0.1);
-  transform: perspective(100px) rotateX(0) rotateY(0) scale(1.05) !important;
 }
 
 /* parallax */
@@ -484,6 +476,8 @@ ul#assignments-list {
   align-items: center;
   flex-direction: column;
 }
+
+/* title flash */
 #assignments-list li:nth-child(2) .ticket-widget-title {
   animation: flash 1s 0.2s ease infinite alternate;
 }
@@ -497,9 +491,11 @@ ul#assignments-list {
 #assignments-list .description {
   font-size: 0.75em;
   margin-top: 1em;
-  background-color: #fff;
+  background-color: #000000af;
+  color: #fff;
+  font-family: sans-serif;
   border-radius: 5px;
-  padding: 0 0.5em;
+  padding: 0.5em 1em;
 }
 
 /* staff list */
