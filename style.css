@@ -464,6 +464,11 @@ ul#assignments-list {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
+
+ul#assignments-list a {
+  text-decoration: none;
+}
+
 #assignments-list li:first-child {
   padding-top: 25vh;
   scale: 1;
