@@ -469,7 +469,7 @@ ul#assignments-list a {
   text-decoration: none;
 }
 
-#assignments-list li:first-child {
+#assignments-list li#first {
   padding-top: 25vh;
   scale: 1;
   padding-bottom: 2em;
