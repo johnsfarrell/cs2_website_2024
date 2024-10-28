@@ -1,0 +1,88 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<div class="default-style">
+  <body>
+    <h2 class="center">
+      <!-- h2 heading #1 -->
+      <a class="link" href="home.html">Home</a>
+    </h2>
+
+    <h1 class="heading">
+      <!-- h1 heading -->
+      Fish Species Table
+    </h1>
+    <h2 class="center">Species Identification</h2>
+    <!-- h2 heading #2 -->
+    <div id="fish-table">
+      <!-- Div 3 -->
+
+      <table border="3" cellspacing="2" cellpadding="5">
+        <tr class="odd-row">
+          <!--Table 3 columns 7 rows-->
+          <th>Fish</th>
+          <th>Size</th>
+          <th>Image</th>
+        </tr>
+        <tr class="even-row">
+          <td>Snapper</td>
+          <td>Medium</td>
+          <!-- Image local #1-->
+          <td><img class="fish-image" src="snapper.png" /></td>
+        </tr>
+        <tr class="odd-row">
+          <td>Kingfish</td>
+          <td>Large</td>
+          <!-- Image local #2-->
+          <td><img class="fish-image" src="kingfish.png" /></td>
+        </tr>
+        <tr class="even-row">
+          <td>Kawaii</td>
+          <td>Medium</td>
+          <td><img class="fish-image" src="kawaii.png" /></td>
+        </tr>
+        <tr class="odd-row">
+          <td>Trevally</td>
+          <td>Small-Medium</td>
+          <td><img class="fish-image" src="trevally.png" /></td>
+        </tr>
+        <tr class="even-row">
+          <td>John Dory</td>
+          <td>Small</td>
+          <td><img class="fish-image" src="johndory.png" /></td>
+        </tr>
+        <tr class="odd-row">
+          <td>Butterfish</td>
+          <td>Small</td>
+          <td><img class="fish-image" src="butterfish.png" /></td>
+        </tr>
+      </table>
+    </div>
+    <p class="center">
+      <!-- Button: Extra credit -->
+      <button id="fish-button" onclick="fishFunction()">MORE FISH!!!</button>
+    </p>
+
+    <!--A bad attempt at replacing all elements with "fish" in document-->
+    <!-- Press it multiple times for maximum results! -->
+    <script>
+      function replaceWordsWithFish(element) {
+        element.childNodes.forEach(function (node) {
+          if (node.nodeType === Node.TEXT_NODE) {
+            node.textContent = node.textContent
+              .split("")
+              .map(() => "fish")
+              .join(" ");
+          } else if (node.nodeType === Node.ELEMENT_NODE) {
+            replaceWordsWithFish(node);
+          }
+        });
+      }
+
+      function fishFunction() {
+        replaceWordsWithFish(document.body);
+      }
+    </script>
+  </body>
+</div>

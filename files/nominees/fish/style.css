@@ -1,0 +1,110 @@
+#fun-facts {
+  font-size: x-large;
+  padding: 1%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#about-images {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+#fish-species-image {
+  max-width: 60vw;
+}
+
+.center-div {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  width: 100vw;
+}
+
+.default-style {
+  /* Div Background color 1 */
+  background-color: bisque;
+}
+
+.about-image-format {
+  max-width: 30vw;
+  padding: 0vw;
+}
+
+.center {
+  /* H2 heading colors */
+  text-align: center;
+  padding: auto;
+  color: black;
+}
+
+.link {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.link:hover {
+  /* Hover color change */
+  color: fuchsia;
+}
+
+.heading {
+  /* H1 heading colors */
+  background-color: navy;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Font #2 */
+  padding: 1%;
+  text-align: center;
+  color: silver; /* Different color to h2 */
+}
+
+.body {
+  display: block;
+
+  background-color: azure; /* Div Background color 2 */
+  text-align: left;
+  padding-left: 33%;
+  padding-right: 33%;
+  font-size: medium;
+}
+
+#fish-table {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  size: 90vw;
+}
+
+.odd-row {
+  /* Alternating color rows for table */
+  background-color: aliceblue;
+}
+.even-row {
+  /* Alternating color rows for table */
+  background-color: rgb(232, 251, 229);
+}
+
+.fish-image {
+  max-width: 20vw;
+  max-height: 20vh;
+}
+
+#fish-button {
+  padding: auto;
+  width: 10vw;
+  height: 5vh;
+  background-color: navy;
+  color: silver;
+  font-weight: bold;
+}
+
+#fish-button:hover {
+  background-color: blue;
+  color: ghostwhite;
+}
