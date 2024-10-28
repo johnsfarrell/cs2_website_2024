@@ -90,10 +90,10 @@ img#brown-logo {
   background-color: #fff;
   font-family: sans-serif;
   text-transform: uppercase;
-  color: #000;
+  color: #3f0000;
   padding: 0 0.5em 0 0.5em;
-  border: 2px #000 dashed;
-  opacity: 0.75;
+  border: 2px #ff6464 dashed;
+  opacity: 0.95;
 }
 
 #navigation button:hover {
@@ -136,7 +136,7 @@ img#brown-logo {
 
 #navigation button:active,
 #navigation button#active {
-  border: 2px #000 solid;
+  border: 2px #ff6464 solid;
   font-weight: bold;
 }
 
@@ -402,7 +402,7 @@ iframe.calendar {
   border-radius: 4px;
 }
 
-/* parallax */
+/* parallax that is not #santa */
 .parallax div {
   position: fixed;
   top: 0;
@@ -415,6 +415,20 @@ iframe.calendar {
   padding-top: 10em;
 }
 
+.parallax img {
+  z-index: -2;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 50vh;
+}
+
+
+#snow {
+  background-image: url("img/parallax/snow.gif");
+  z-index: -3;
+  background-size: auto;
+}
 #layer3 {
   background-image: url("img/parallax/layer3.png");
   z-index: -4;
@@ -444,6 +458,8 @@ iframe.calendar {
   background-image: url("img/parallax/layer8.png");
   z-index: -9;
   background-size: cover;
+  /* use filter to turn orange to blue / purple */
+  filter: hue-rotate(180deg) brightness(0.25);
 }
 
 @keyframes parallax {
@@ -706,32 +722,18 @@ ul#staff-list li:hover {
   text-align: center;
   padding: 0.5em;
   border-radius: 100%;
-  background-color: #fff;
   text-transform: lowercase;
-  border: solid 2px #00000020;
-  animation: squish 2s infinite linear;
+  top: -2em;
+  position: relative;
+  left: -1em;
 }
 
-@keyframes squish {
-  0% {
-    transform: scale(1);
-  }
-  60% {
-    transform: scale(1);
-  }
-  70% {
-    transform: scale(1.1);
-  }
-  80% {
-    transform: scale(1);
-  }
-  90% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+.sign img {
+  width: 5em;
+  border-radius: 5px;
+  transition: all 0.15s ease;
 }
+
 
 /* links */
 
