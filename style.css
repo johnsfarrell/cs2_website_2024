@@ -833,3 +833,16 @@ hr {
     margin-right: 1em;
   }
 }
+
+#grinch {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#cindy {
+  position: fixed;
+  width: 250px;
+  bottom: 0;
+  left: 0;
+}
