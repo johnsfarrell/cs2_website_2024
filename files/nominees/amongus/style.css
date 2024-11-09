@@ -1,0 +1,87 @@
+#home {
+  width: 20vw;
+  height: 45vh;
+  border-radius: 12px;
+  margin: 10%;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+#div1 {
+  background-color: rgb(241, 247, 247);
+}
+#div2 {
+  background-color: bisque;
+}
+#table {
+  border: 1px solid black;
+}
+th,
+td {
+  border: 1px solid black;
+}
+button {
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 30px;
+  background-color: beige;
+}
+button:hover {
+  background-color: burlywood;
+  color: darkcyan;
+}
+.oddRow {
+  background-color: aliceblue;
+}
+.evenRow {
+  background-color: cadetblue;
+}
+h1 {
+  font-family: serif, "Times New Roman", Times, serif;
+  color: rgb(140, 4, 58);
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(67, 5, 154);
+}
+
+#historyHomePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tableIMGs {
+  width: 50px;
+  height: 65px;
+  display: flex;
+}
+.aboutParagraphs {
+  align-items: center;
+  display: flex;
+  width: 40%;
+}
+#homeBackground {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://cdn.mobygames.com/covers/9699387-among-us-nintendo-switch-front-cover.jpg);
+  background-size: 90%;
+}
+#aboutPage {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(245, 245, 244);
+  background-image: url(https://i.pinimg.com/originals/d3/91/f0/d391f0c1ff8cd3b9d6292ddc7ea9f72f.png);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
