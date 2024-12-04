@@ -1,0 +1,106 @@
+h1 {
+    font-family:'Segoe UI';
+    font-size: 4em;
+    color: rgb(202, 236, 201);
+    text-align: center;
+    text-decoration:solid;
+    margin-top: 10px; margin-bottom: 10px;}
+#title {font-size: 5em;
+    background: url(paper.webp);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;}
+#notey {width: 45vw; height:60vw;
+    border: 10px solid rgb(57, 127, 130); border-radius: 5px;
+
+}
+.divvy {background-color: cadetblue;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;}
+#Eriol {width: 28vw; height:28vw; margin-right: 25px;}
+.divvidend {display:flex}
+.flexvert {flex-direction: column;}
+#Kort {background-image: url(Kortirion.jpg); 
+    background-size: 100%;}
+.link {text-align: center; 
+    vertical-align: middle;
+    font-family:'Segoe UI';
+    color:rgb(202, 236, 201);
+    font-size: x-large; 
+    margin-right: 10px; 
+    margin-left: 10px;}
+.link:hover {color:rgb(18, 126, 228)}
+.papery {background-image: url(paper.webp); 
+    background-attachment: fixed;}
+.texty {color:cadetblue;
+    text-shadow:1px 1px rgb(202, 236, 201);
+    font-size:xx-large; 
+    font-family:'Trebuchet MS'; 
+    margin-right: 25px;
+    margin-left: 25px;}
+.title2 {color: rgb(57, 127, 130);
+    text-shadow:2px 2px rgb(202, 236, 201);
+    font-size:xxx-large; 
+    font-family:'Trebuchet MS';
+    text-decoration: underline;
+    margin-right: 25px;
+    margin-left: 25px;margin-right: 25px;}
+#specific {text-align: center;}
+#caption {color: rgb(57, 127, 130);
+    text-shadow:1px 1px rgb(202, 236, 201);
+    font-size:large; 
+    font-family:'Trebuchet MS';
+    text-align: center;
+    margin-left: 50px; margin-right: 50px;}
+#divtacular {background-color:rgb(157, 195, 196);border-radius: 45px;}
+button {
+        margin-left: 348px;
+        background-color:cadetblue;
+        border: none;
+        color: rgb(202, 236, 201);
+        padding: 15px 32px;
+        text-align: center;
+        font-family:'Trebuchet MS' ;
+        display: inline-block;
+        font-size: 30px;
+        border-radius: 15px;}
+#influential {color:rgb(202, 236, 201);
+    text-shadow:none}
+#sowing {text-shadow:none; 
+    color:cadetblue;}
+#divtastic {background-color:rgb(202, 236, 201);
+    opacity: 70%;
+    margin: 1%;
+    border-radius:25px ;}
+#gondolin {width: 37vw; height:37vw;  
+    margin-left: 25px ;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: 10px solid rgb(57, 127, 130);}
+#textactual {color:rgb(202, 236, 201);
+    text-shadow:1px 1px cadetblue;
+    font-size:xx-large; 
+    font-family:'Trebuchet MS'; 
+    margin-right: 25px;
+    margin-left: 25px;}
+ table, th, td, tr {
+    border: 2px solid;
+    margin-left: 25px; margin-right: 25px;
+    color:rgb(39, 26, 138);
+    font-family:'Trebuchet MS';
+    font-size: larger;
+    opacity: 100%;}
+.even {background-color:rgb(39, 26, 138);}
+.odd {background-color:rgb(128, 196, 198);}
+.why {color:rgb(128, 196, 198);}
+#titlistic { color:rgb(14, 7, 69);
+    font-family:'Trebuchet MS';
+    text-align: center;
+    font-size: xx-large;
+    text-decoration:underline;}
+#paragraphical { margin-left: 25px; margin-right: 25px;
+    color:rgb(39, 26, 138);
+    font-family:'Trebuchet MS';
+    font-size: x-large;
+    opacity: 100%;}
